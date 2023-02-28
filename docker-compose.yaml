@@ -3,5 +3,6 @@ services:
   api:
     build:
       context: .
+    image: serasorb/first
     ports:
     - 25000:25000
